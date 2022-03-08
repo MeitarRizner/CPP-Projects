@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Game.h"
 
+//The main program creates a game object and starts the game.
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Game* game = new Game();
+    game->Play();
     return 0;
 }
